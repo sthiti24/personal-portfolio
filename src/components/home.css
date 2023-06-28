@@ -1,0 +1,25 @@
+.parallax-banner{
+    aspect-ratio: 2/1;
+}
+
+.typo{
+    font-size: 11rem;
+    letter-spacing: -1.5px;
+}
+
+@media screen and (max-width:850px){
+    .parallax-banner{
+        aspect-ratio: 1.5/1;
+    }
+    .typo{
+        font-size: 7rem;
+    }
+}
+@media screen and (max-width:650px){
+    .parallax-banner{
+        aspect-ratio: 1/1;
+    }
+    .typo{
+        font-size: 5rem;
+    }
+}
