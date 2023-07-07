@@ -11,7 +11,7 @@ import { saveAs } from "file-saver";
 export default function Home(){
     
     const [text] = useTypewriter({
-        words: [' Web Devloper',' Tech Enthusiast',' Nature Lover'],
+        words: [' Web Developer',' Tech Enthusiast',' Nature Lover'],
         loop:{},
         typeSpeed:120,
         deleteSpeed:80
