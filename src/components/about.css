@@ -1,0 +1,100 @@
+.about{
+    background-color:#031838;
+    height:auto;
+    overflow-x:0;
+    color:white;
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+}
+.about-title{
+    font-size:80px;
+    margin-bottom:40px;
+    margin-top: 30px;
+    font-family: 'Manrope', sans-serif;
+    letter-spacing: -3px;
+    word-spacing: 10px;
+}
+
+.about-content{
+    margin:20px 50px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:row;
+    letter-spacing: -0.3px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.about-image{
+    
+    width:20%;
+    aspect-ratio:1;
+    border-radius:50%;
+    margin-left:5%;
+}
+
+.about-text{
+    margin-left:30px;
+    width:60%;
+    font-size:18px;
+    text-align: left;
+}
+
+@media screen and (max-width:1100px){
+
+    .about-content{
+        flex-direction: column;
+        margin: 10px 20px;
+    }
+    .about-image{
+        margin: 30px auto 10px auto;
+        width: 35%;
+    }
+    .about-text{
+        margin: 20px auto 10px auto;
+        width: 82%;
+        text-align: justify;
+    }
+}
+.about-skills{
+   
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    font-family: 'Manrope', sans-serif;
+    word-spacing: 10px;    
+}
+
+.about-skillsLogo{
+
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    flex-direction:row;
+    width: 100%;
+}
+.about-skillsLogo>img{
+    height:120px;
+    aspect-ratio: 1;
+    margin:5px 10px;
+}
+
+@media screen and (max-width:650px){
+    .about-image{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width:450px){
+   .about-title{
+    font-size: 65px;
+   }
+    .about-text{
+        font-size: 12px;
+    }
+    .about-skillsLogo>img{
+        height:80px;
+    }
+}
