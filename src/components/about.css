@@ -72,10 +72,17 @@
     display:flex;
     align-items:center;
     justify-content:space-around;
+    flex-direction:column;
+    width: 100%;
+}
+.about-skillsLogo>div{
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
     flex-direction:row;
     width: 100%;
 }
-.about-skillsLogo>img{
+.about-skillsLogo>div>img{
     height:120px;
     aspect-ratio: 1;
     margin:5px 10px;
